@@ -11,3 +11,4 @@ def trace_path(came_from, end, start):
         current.state = "path"
         current = came_from[current]
         yield
+
