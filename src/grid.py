@@ -40,8 +40,6 @@ class Node:
             self.neighbours.append(grid[r][c])
 
 
-
-
 def make_grid(rows, width):
     grid = []
     gap = width // rows
